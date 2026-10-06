@@ -21,13 +21,11 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
         <div className="bg-gray-500">
             <div className="flex items-center m-2" >
                 <div className="flex items-center gap-4">
-                    <a href="/">
-                        <img 
-                        src={dinoASCII} 
-                        alt="Dino" 
-                        style={{ width: '225px', height: '125px' }} 
-                        />
-                    </a>
+                    <img 
+                    src={dinoASCII} 
+                    alt="Dino" 
+                    style={{ width: '225px', height: '125px' }} 
+                    />
                     
                     <h1 className="text-2xl font-semibold">
                         REX - Relational Algebra Explorer
